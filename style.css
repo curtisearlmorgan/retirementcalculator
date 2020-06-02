@@ -1,0 +1,64 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  background-color: #fff;
+  background-size: 64px 128px; }
+.form {
+  height: 450px;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #fff;
+  box-shadow: 2px 2px 20px;
+  font-size: 0.8em;
+  padding: 20px 20px 20px 20px;
+  margin: 0 10px 0 10px
+}
+  .main .container{
+    height: 450px;
+    width: 900px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    align-self: center;
+    position: relative; }
+    @media (min-width: 1000px) {
+      .main .container{
+        box-shadow: 2px 2px 20px; } }
+    .main .container #title {
+      text-align: center;
+      font-size: 2.5em; }
+    .main .container .visHolder{
+      position: absolute;
+      top: 6em; }
+
+.bar:hover{
+  fill:#98fb98;
+}
+.tooltip{
+width: 130px;
+height: 40px;
+padding: 2px;
+font: 12px;
+background: lightsteelblue;
+box-shadow: 1px 1px 10px;
+border-radius: 2px;
+text-align: center;
+max-width: 500px;
+max-height: 100px;
+padding: 8px;
+margin-top: 175px;
+font: 10px;
+background: lightsteelblue;
+color: black;
+pointer-events: none;
+}
+#finalHolder {
+  text-align: center;
+}

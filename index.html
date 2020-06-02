@@ -1,0 +1,22 @@
+<div class="main">
+   <div class="form">
+     Annual Contribution $<input type='number' id='annualCont' value="1000" min="0" max="100000"/>
+    Rate of Return Before Retirement (%) <input type='number' id='investRor' value="6" min="0" max="100"/>
+    Rate of Return During Retirement (%) <input type='number' id='retireRor' value="6" min="0" max="100"/>
+    Expected Rate of Inflation: <input type='number' id='inflaRate' value="3.0" min="0" max="50"/>
+    Current Age <input type='number' id='nowTime' value="27" min="0" max"150"/>
+Age of Retirement: <input type='number' id='oldTime' value="65" min="0" max="150"/>
+Current Retirement Savings: $<input type='number' id='currMoney' value="30000" min="0" max="50000000"/>
+Estimated Annual Living Expenses (in year-of-retirement's dollars):<input type='number' id='liveCost' value="45000" min="0" max="10000000"/>
+Years of Retirement Income: <input type='number' id='retireTime' value="30" min="0" max="150"/>
+     <button onClick='calculate()'class="button">CALCULATE</button>
+     <div id="finalHolder"><br>
+  Balance at Age of Retirement:   $<span id="futureV"><br>
+</div>
+  </div>
+ <div class='container'>
+    <div id='title'>Retirement Calculator</div>
+    <div class='visHolder'></div>
+  </div>
+</div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
